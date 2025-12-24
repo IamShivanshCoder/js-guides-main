@@ -19,4 +19,3 @@ let score_2 = 200
 let score_3 = 300
 
 Array.of(score_2,score_3,scroe_1)
-
