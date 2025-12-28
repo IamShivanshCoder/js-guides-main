@@ -40,3 +40,20 @@ console.log(
 );
 
 console.log(users[0].hasOwnProperty('isLogg')) //find prop
+
+
+
+const course = {
+    name:"js",
+    price:"999",
+    desc:"best course"
+}
+
+const {name: n} = course //Destructuring
+let {price: p }= course //Destructuring
+
+const j = JSON.parse({
+    name:"j",
+    coursename :'price'
+})
+console.log(j);
