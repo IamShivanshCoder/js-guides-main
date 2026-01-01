@@ -45,9 +45,15 @@ const course = {
 
 const { name: n } = course; //Destructuring
 let { price: p } = course; //Destructuring
+let { desc: d } = course; //Destructuring
 
-const j = JSON.parse({
-  name: "j",
-  coursename: "price",
-});
-console.log(j);
+// API usage
+// Json is mixture of arrya,objecrt,symbolsetc..
+
+let js_api = {
+  login: "hitesh",
+  name: "IamShuvanshCoder",
+  email: "w@gmiail.com",
+};
+
+console.log(typeof js_api);
