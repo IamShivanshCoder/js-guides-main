@@ -7,7 +7,7 @@ const ob1 = {
     lastLogIn: "time",
     f: "sss",
     mysy: mysym,
-    [mysym]: "Sy",
+    [mysym]: "Sy",//this is symbol key value pair
 };
 
 ob1.greeting = () => {
