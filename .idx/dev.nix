@@ -24,7 +24,6 @@
       "dsznajder.es7-react-js-snippets"
       "esbenp.prettier-vscode"
       "xabikos.JavaScriptSnippets"
-      "eamodio.gitlens"
     ];
 
     # Enable previews
