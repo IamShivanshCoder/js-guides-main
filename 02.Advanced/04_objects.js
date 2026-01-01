@@ -22,38 +22,32 @@ obj2 = { 4: "f" };
 
 const obj3 = { ...obj1, ...obj2 }; //Preferred method
 
-
-
 const users = [
-    {
-        id:1,
-        email:"s@gmail.cpm"
-    },
-    {
-        id:2,
-        email:"a@gmail.com"
-    }
-]
+  {
+    id: 1,
+    email: "s@gmail.cpm",
+  },
+  {
+    id: 2,
+    email: "a@gmail.com",
+  },
+];
 
-console.log(
-    Object.keys(...users)
-);
+console.log(Object.keys(...users));
 
-console.log(users[0].hasOwnProperty('isLogg')) //find prop
-
-
+console.log(users[0].hasOwnProperty("isLogg")); //find prop
 
 const course = {
-    name:"js",
-    price:"999",
-    desc:"best course"
-}
+  name: "js",
+  price: "999",
+  desc: "best course",
+};
 
-const {name: n} = course //Destructuring
-let {price: p }= course //Destructuring
+const { name: n } = course; //Destructuring
+let { price: p } = course; //Destructuring
 
 const j = JSON.parse({
-    name:"j",
-    coursename :'price'
-})
+  name: "j",
+  coursename: "price",
+});
 console.log(j);
